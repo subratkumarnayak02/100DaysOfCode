@@ -1,0 +1,37 @@
+Q) Given an input integer, you must determine which primitive data types are capable of properly storing that input.
+
+Sample Input:
+4
+9223372036854775808
+4294967296
+-4294967296
+-65535
+256
+
+Sample Output:
+9223372036854775808 can't be fitted anywhere.
+4294967296 can be fitted in:
+* long
+-4294967295 can be fitted in:
+* long
+-65535 can be fitted in:
+* int
+* long
+256 can be fitted in:
+* short
+* int
+* long
+
+Solution:
+
+1. byte has minimum value of -128 and a maximum value of 127(inclusive).
+2. short has a minimum value of -32,768 and a maximum value of 32,767 (inclusive).
+3. int has a minimum value of (-2^31) and a maximum value of (2^31)-1.
+4. long has a minimum value of (-2^63) and a maximum value of (2^63)-1.
+
+Steps:
+1. First take the number of elements to check.
+2. Then check if the number is in the range of byte,short,int or long in size.
+3. Then Print the types of datatypes the number lies in, if its non of the above, print 'can't be fitted anywhere'.
+
+(Refer to the above folder for code)
