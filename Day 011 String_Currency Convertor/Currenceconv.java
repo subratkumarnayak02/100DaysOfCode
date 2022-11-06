@@ -1,3 +1,6 @@
+/*
+Question : Convert INDIAN currency to US,CHINA,FRANCE currency.
+*/
 import java.util.*;
 import java.text.*;
 
