@@ -1,4 +1,4 @@
-Patern Syntax Checker
+Question:
 
 Using Regex, we can easily match or search for patterns in a text. Before searching for a pattern, 
 we have to specify one using some well-defined syntax.
