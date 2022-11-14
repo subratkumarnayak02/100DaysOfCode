@@ -15,8 +15,11 @@ Do not print the quotes.
 
 Sample Input
 3
+
 ([A-Z])(.+)
+
 [AZ[a-z](a-z)
+
 batcatpat(nat
 
 Sample Output
