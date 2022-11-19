@@ -18,8 +18,11 @@ Output two lines. The first line should contain a + b, and the second line shoul
 Sample Input:
 
 1234
+
 20
+
 Sample Output:
 
 1254
+
 24680
