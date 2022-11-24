@@ -75,7 +75,11 @@ NO
 Explanation
 
 We perform the following q=4 queries:
+
 For game = [0, 0, 0, 0, 0]  and leap = 3, we can walk and/or jump to the end of the array because every cell contains a 0. Because we can win, we return true.
+
 For game = [0, 0, 0, 1, 1, 1]  and leap = 5, we can walk to index 1 and then jump i+leap = 1+5 = 6 units to the end of the array. Because we can win, we return true.
+
 For game = [0, 0, 1, 1, 1, 0] and leap = 3, there is no way for us to get past the three consecutive ones. Because we cannot win, we return false.
+
 For game = [0, 1, 0] and leap = 1, there is no way for us to get past the one at index 1. Because we cannot win, we return false.
