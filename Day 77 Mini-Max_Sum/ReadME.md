@@ -27,6 +27,7 @@ Input Format
 A single line of five space-separated integers.
 
 Constraints
+
 1<=arr[i]<=10^9
 
 Output Format
@@ -36,6 +37,7 @@ Print two space-separated long integers denoting the respective minimum and maxi
 Sample Input
 
 1 2 3 4 5
+
 Sample Output
 
 10 14
